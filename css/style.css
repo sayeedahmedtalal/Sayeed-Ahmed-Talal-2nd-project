@@ -1,0 +1,130 @@
+.body{
+
+    margin: 0; 
+
+}
+img{
+    max-width: 100%;
+    display: block;
+} 
+
+*{box-sizing: border-box;}
+
+/*Wildlifegallery*/
+ 
+.wildlifeintrroduction{ 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.introduction{ 
+    text-align: center;
+     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 1.4;
+}
+  
+/*gallerysection*/
+
+.GallerySection{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.galleryimage{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.galleryimage img{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+/* aboutussectiom */
+
+.aboutUssection{ 
+    background-color: rgb(237, 240, 241);
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.aboutus{ 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 30px;
+  
+}
+p{
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 1.4;
+}
+
+
+/*knowaboutussection*/
+.Knowaboutussection{
+display: flex;
+width: 1000px;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+
+.column01{
+    flex-basis: 50%;
+    max-width: 50%;
+   
+    
+    background-color:black;
+    color: white;
+   padding: 20px;
+  
+   
+}
+
+.column02{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
